@@ -1,4 +1,4 @@
-## Save Tasks and there summary using sqlite via flask_restful api
+## Save Tasks and their summary using sqlite via flask_restful api
 
 from flask import Flask
 from flask_restful import Resource, Api, reqparse, abort, fields, marshal_with
@@ -74,8 +74,6 @@ class ToDo(Resource):
             return"Task Deleted"
         return "Task not Found"            
             
-
-
 # Add resources to the API
 api.add_resource(ToDoList, '/todo')
 api.add_resource(ToDo, '/todo/<int:todo_id>')
