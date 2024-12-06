@@ -1,6 +1,2 @@
-# Basic Restaurant Billing System
-A simple Python program for managing restaurant billing. This system allows users to select menu items, calculate the total bill, and provide a summary of the order.
-## Features:
-- Interactive menu for order placement.
-- Automatic bill calculation.
-- Easy to customize for any restaurant.
+# Taskify - Make Your Todo's list
+Taskify API is a simple and efficient RESTful API built using Flask and SQLite to manage tasks. This API allows users to perform CRUD operations on tasks, including storing their details in a SQLite database. Designed for ease of use, it offers a simple yet powerful interface to manage tasks, making it ideal for any application that needs task management functionality.
